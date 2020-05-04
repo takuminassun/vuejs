@@ -7,10 +7,10 @@
 </head>
 <body>
   <div id="app">
-    <p>{{ message.value }}</p>
-    <p>{{ message.value.length }}</p>
-    <p>{{ list[2] }}</p>
-    <p>{{ list[num] }}</p>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <circle cx="100" cy="75" v-bind:r="radius" fill="lightpink"/>
+    </svg>
+    <input type="range" min="0" max="100" v-model="radius">
   </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="main.js"></script>
