@@ -7,9 +7,7 @@
 </head>
 <body>
   <div id="app">
-    <button v-on:click="handleClick">カウントアップ</button>
-    <button v-on:click="show=!show">表示/非表示</button>
-    <span ref="count" v-if="show">0</span>
+    <span v-html="message"></span>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="main.js"></script>
